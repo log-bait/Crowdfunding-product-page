@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:Moderate  hsl(176, 50%, 47%)
+     hsl(176, 72%, 28%) ;
+}
+body{
+    background-color: hsl(173, 61%, 85%) !important;
+}
+header{
+    padding: 40px;
+    background-image: url(/images/image-hero-desktop.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.main{
+    margin:-80px auto;
+    width: 650px;
+    height: 100%;
+    font-family: 'Commissioner', sans-serif;
+}
+.mclogo{
+    /* padding: 0 30px; */
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    background-color: seashell;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.mclogo>img{
+    position: relative;
+    bottom: 25px;
+}
+.hmenu{
+    color: white;
+}
+.hmenu:hover{
+    cursor: pointer;
+}
+.subnavbar{
+    padding: 0 20px;
+    width: 300px; 
+    height: 150px; 
+    background-color: white; 
+    margin: auto;
+    border-radius: 10px;
+}
+.subnavbar>ul>li{
+    border-bottom: 1px solid gray;
+}
+.secondsec{
+    width: 100%;
+    height: 200px;
+    background-color: seashell;
+
+
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.lastsec{
+width: 100%;
+height: 44%;
+background-color: seashell;
+border-radius: 10px;
+padding: 40px;
+}
+.lastsec>div{
+    margin-bottom: 20px;
+    width: 570px;
+    height: 24%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.lastsec>div:first-of-type{
+    margin-top: 20px;
+}
+.lastsec>div:last-child{
+    opacity: 0.5;
+}
+#butn{
+    width: 190px;
+    height: 52px;
+    background-color: hsl(176, 50%, 47%);
+}
+#butn:hover{
+    background-color: hsl(176, 72%, 28%) ;
+    color: white;
+}
+#bookmark{
+    /* justify-content: space-between; */
+    /* text-align: center; */
+    background-color: rgb(198, 201, 204);
+    padding: 0px;
+    width: 190px;
+}
+#bookmark>img{
+    position: relative;
+    left: -32px;
+    width: 50px;
+}
+.butns{
+    padding: 0 30px;
+    margin-top: 50px;
+    display: flex;
+    width: 650px;
+justify-content: space-between;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+}
+.numbers>div{
+
+    width: 217px;
+margin-top: 40px;
+    padding:0 20px;
+    border-right: 2px solid black;
+}
+.numbers>div:last-child{
+border-right: 0;
+}
+.prog-bar{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 550px;
+    background-color: white;
+    height: 15px;
+    border-radius: 50px;
+}
+.progs{
+    border-radius: 50px;
+    width: 450px;
+    height: 15px;
+    background-color: hsl(176, 50%, 47%);
+}
+.bamboo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px ;
+}
+#modal-content{
+    width:750px;
+    padding: 30px;
+    background-color: seashell;
+    margin-left:-130px
+}
+.pledge-one{
+    width: 660px;
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* border: 2px solid green; */
+}
+.pledge-one>p{
+    padding-left: 40px;
+}
+.pledge-one:last-of-type{
+    opacity: 0.5;
+}
+label{
+    padding-left: 20px;
+    margin-right: 10px;
+}
+label:hover{
+    color: rgb(22, 208, 221);
+    cursor: pointer;
+}
+#add{
+    width: 99px;
+    height: 38px;
+    padding:20px;
+ border: 1px solid green;
+
+}
+/* #pledge1{
+    border: 2px solid green;
+} */
+#bamboo{
+    width: 620px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 425px) {
+    header{
+        padding: 40px;
+        background-image: url(/images/image-hero-mobile.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+       min-width: 100%;
+        height: 400px;
+    }
+    .main{
+        margin:-80;
+        max-width: 100%;
+        height: 100%;
+    }
+    #bookmark{
+        /* justify-content: space-between; */
+        /* text-align: center; */
+        background-color: rgb(198, 201, 204,);
+        padding: 0px;
+        width: 190px;
+    }
+    .butns{
+        text-align: center;
+        padding: 0px;
+        margin-top: 0px;
+        display: flex;
+        max-width: 100%;
+    }
+    .secondsec{
+       width: 425px;
+        height: 100%;
+        background-color: seashell;
+        border-radius: 10px;
+        margin-bottom: 2%;
+text-align: center;
+padding: 30px;
+    }
+    .numbers{
+margin:0 auto;
+display: flex;
+        flex-direction: column;
+    }
+    .numbers>div{
+        margin: 10px auto;
+        width: 180px;
+    margin-top: 0px;
+        padding: 10px;
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+    .prog-bar{
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 0px;
+        width: 350px;
+        background-color: white;
+        height: 15px;
+        border-radius: 50px;
+    }
+    .progs{
+        border-radius: 50px;
+        width: 200px;
+        height: 15px;
+        background-color: hsl(176, 50%, 47%);
+    }
+    .lastsec{
+        width: 100%;
+        height: 44%;
+        background-color: seashell;
+        border-radius: 10px;
+        padding: 40px;
+        }
+        .lastsec>div{
+            margin-bottom: 20px;
+            width: 100%;
+            height: 24%;
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+        }
+        .lastsec>div:first-of-type{
+            margin-top: 20px;
+        }
+        .lastsec>div:last-child{
+            opacity: 0.5;
+        }
+        #modal-content{
+            width:100%;
+            padding: 30px;
+            background-color: seashell;
+            margin-left:0px
+        }
+        .pledge-one{
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            /* border: 2px solid green; */
+        }
+        .pledge-one>p{
+            padding-left: 40px;
+        }
+        .pledge-one:last-of-type{
+            opacity: 0.5;
+        }
+        #bamboo{
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        #black-edition{
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .bamboo{
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            margin-bottom: 20px ;
+        }
+        .remaining{
+            display: flex;
+            flex-direction: column;
+        }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
